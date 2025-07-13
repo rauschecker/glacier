@@ -1,5 +1,27 @@
 # glacier
+
+           /\                       _            _    
+          /  \    /\           __ _| | __ _  ___(_) ___ _ __  
+         /    \  /  \         / _` | |/ _` |/ __| |/ _ \ '__|     
+        /      \/    \       | (_| | | (_| | (__| |  __/ |   
+       /              \       \__, |_|\__,_|\___|_|\___|_|  
+      /________________\      |___/                                v0.0.1
+                                        @rauschecker (https://andresr.de)
+
+
 AI powered pentesting tool
+
+# Installation Instructions
+  - generate a new venv:
+  
+        python -m venv --prompt glacier .venv  && source .venv/bin/activate
+  - install python dependencies
+  
+        pip install -r requirements.txt
+
+
+# Usage
+    python glacier.py
 
 # Disclaimer & Responsible Use Policy
 
