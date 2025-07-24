@@ -21,7 +21,23 @@ AI powered pentesting tool
 
 
 # Usage
-    python glacier.py
+    glacier [-t TECH] [-u URLS] [-w WORDLIST] [-k OPENAI_KEY_FILE] [-o OUTPUT] [-n NUM_RESULTS] [-T MAX_TOKENS] [-c] [-h]
+
+           options:
+             -t, --tech TECH       Describe the tech stack of the application
+             -u, --urls URLS       Path to a file containing known URLs (one per line)
+             -w, --wordlist WORDLIST
+                                   Path to a file containing relative URLs to exclude from output
+             -k, --openai-key-file OPENAI_KEY_FILE
+                                   Path to a file containing the OpenAI API key. Alternatively set env var OPENAI_API_KEY.
+             -o, --output OUTPUT   File path to write the results
+             -n, --num-results NUM_RESULTS
+                                   Number of results to request from OpenAI (default: 10)
+             -T, --max-tokens MAX_TOKENS
+                                   Maximum tokens to use in the OpenAI query (default: 4000)
+             -c, --cost            Output token cost and exit
+             -h, --help            Show this help message and exit
+
 
 # Disclaimer & Responsible Use Policy
 
